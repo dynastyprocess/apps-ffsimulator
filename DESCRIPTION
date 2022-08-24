@@ -1,0 +1,40 @@
+Package: apps-ffsimulator
+Title: AppTitle
+Version: 0.0.1
+Authors@R: 
+    person(given = "Tan",
+           family = "Ho",
+           role = c("aut", "cre"),
+           email = "tan@tanho.ca")
+Description: What the app does.
+License: MIT + file LICENSE
+Imports: 
+    arrow,
+    ffsimulator,
+    ffscrapr,
+    nflreadr,
+    bs4Dash,
+    dplyr,
+    tidyr,
+    stringr,
+    purrr,
+    readr,
+    lubridate,
+    glue,
+    janitor,
+    joker,
+    magrittr,
+    pkgload,
+    reactable,
+    sever,
+    shiny,
+    shinyjs,
+    shinyWidgets,
+    waiter,
+    writexl
+Remotes:
+    tanho63/joker
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
